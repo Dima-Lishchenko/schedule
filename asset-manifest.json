@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Dima-Lishchenko/schedule/static/css/main.b9e9a9b1.chunk.css",
+    "main.js": "/Dima-Lishchenko/schedule/static/js/main.f80d41b6.chunk.js",
+    "main.js.map": "/Dima-Lishchenko/schedule/static/js/main.f80d41b6.chunk.js.map",
+    "runtime-main.js": "/Dima-Lishchenko/schedule/static/js/runtime-main.98c062b9.js",
+    "runtime-main.js.map": "/Dima-Lishchenko/schedule/static/js/runtime-main.98c062b9.js.map",
+    "static/js/2.40c6836b.chunk.js": "/Dima-Lishchenko/schedule/static/js/2.40c6836b.chunk.js",
+    "static/js/2.40c6836b.chunk.js.map": "/Dima-Lishchenko/schedule/static/js/2.40c6836b.chunk.js.map",
+    "index.html": "/Dima-Lishchenko/schedule/index.html",
+    "precache-manifest.14fd1b0b892e76da514f2ed10fd7e41c.js": "/Dima-Lishchenko/schedule/precache-manifest.14fd1b0b892e76da514f2ed10fd7e41c.js",
+    "service-worker.js": "/Dima-Lishchenko/schedule/service-worker.js",
+    "static/css/main.b9e9a9b1.chunk.css.map": "/Dima-Lishchenko/schedule/static/css/main.b9e9a9b1.chunk.css.map",
+    "static/js/2.40c6836b.chunk.js.LICENSE.txt": "/Dima-Lishchenko/schedule/static/js/2.40c6836b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98c062b9.js",
+    "static/js/2.40c6836b.chunk.js",
+    "static/css/main.b9e9a9b1.chunk.css",
+    "static/js/main.f80d41b6.chunk.js"
+  ]
+}
