@@ -1,0 +1,110 @@
+.loader
+  position: relative
+  min-width: 30px
+  width: 30px
+  min-height: 30px
+  height: 30px
+  float: left
+  user-select: none
+  box-sizing: border-box
+
+  @media screen and (min-width: 575px)
+    width: 40px
+    min-width: 40px
+    height: 40px
+    min-height: 40px
+  @media screen and (min-width: 1200px)
+    width: 50px
+    min-width: 50px
+    height: 50px
+    min-height: 50px
+
+  .loader-bg
+    width: 100%
+    height: 100%
+    border-radius: 50%
+    border: 2px solid #565e57
+    box-sizing: border-box
+
+    .text
+      text-align: center
+      padding-top: 32%
+      color: white
+      font-size: 9px
+
+      @media screen and (min-width: 575px)
+        font-size: 11px
+        padding-top: 28%
+      @media screen and (min-width: 1200px)
+        padding-top: 26%
+        font-size: 15px
+
+      &.FT, &.HT
+        color: #44c55a
+
+.spinner-holder-one
+  position: absolute
+  top: 0
+  left: 0
+  overflow: hidden
+  width: 50%
+  height: 50%
+  background: transparent
+  box-sizing: border-box
+
+.spinner-holder-two
+  position: absolute
+  top: 0
+  left: 0
+  overflow: hidden
+  width: 100%
+  height: 100%
+  background: transparent
+  box-sizing: border-box
+
+.loader-spinner
+  width: 200%
+  height: 200%
+  border-radius: 50%
+  border: 2px solid #44c55a
+  box-sizing: border-box
+
+.animate-0-25-a
+  transform: rotate(90deg)
+  transform-origin: 100% 100%
+
+.animate-0-25-b
+  transition: all 2s linear
+  transform: rotate(-90deg)
+  transform-origin: 100% 100%
+  transition: all 0.3s linear
+
+.animate-25-50-a
+  transform: rotate(180deg)
+  transform-origin: 100% 100%
+
+.animate-25-50-b
+  transform: rotate(-90deg)
+  transform-origin: 100% 100%
+  transition: all 0.3s linear
+  transition-delay: 0.3s
+
+.animate-50-75-a
+  transform: rotate(270deg)
+  transform-origin: 100% 100%
+
+.animate-50-75-b
+  transform: rotate(-90deg)
+  transform-origin: 100% 100%
+  transition: all 0.3s linear
+  transition-delay: 0.6s
+
+.animate-75-100-a
+  transform: rotate(0deg)
+  transform-origin: 100% 100%
+
+.animate-75-100-b
+  transform: rotate(-90deg)
+  transform-origin: 100% 100%
+  transition: all 0.3s linear
+  transition-delay: 0.9s
